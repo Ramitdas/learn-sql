@@ -1,0 +1,45 @@
+SQL (Structured Query Language): A language designed for creating, reading, updating, and deleting data from databases.
+Database: A structured collection of data, typically organized into tables.
+Relational Database Management System (RDBMS): A software system used to create, manage, and interact with relational databases using SQL.
+Table: A collection of related data held in a structured format within a database. It consists of columns and rows.
+Row (Record): A single entry or instance of data in a table, representing a complete set of values for each column.
+Column (Property/Attribute): A vertical entity in a table that contains all the data of a particular type for all records.
+Keyword: Reserved words in SQL that have special meaning, such as SELECT, FROM, WHERE.
+Semicolon (;): Used to terminate SQL statements, especially when writing multiple queries in one file.
+String: A sequence of characters; in SQL, strings are enclosed in single quotes.
+CREATE DATABASE: A SQL command used to create a new database.
+DROP DATABASE: A SQL command used to delete an entire database.
+USE: A SQL command used to select the database that subsequent queries will operate on.
+CREATE TABLE: A SQL command used to create a new table within a database.
+Data Type: Specifies the type of data that a column can hold (e.g., INT for integers, VARCHAR for variable-length strings).
+ALTER TABLE: A SQL command used to modify the structure of an existing table (e.g., add, delete, or modify columns).
+NOT NULL: A constraint that ensures a column cannot have a NULL (empty) value.
+AUTO_INCREMENT: A property for a column (typically an ID) that automatically generates a unique number for each new record inserted.
+Primary Key: A column or set of columns that uniquely identifies each row in a table. It cannot contain NULL values and must contain unique values.
+Foreign Key: A column or set of columns in one table that refers to the primary key in another table, establishing a link between them.
+INSERT INTO: A SQL command used to add new rows (records) into a table.
+VALUES: Used with INSERT INTO to specify the data values to be inserted.
+SELECT: A SQL command used to retrieve data from one or more tables.
+Asterisk (*): A wildcard character used in SELECT statements to indicate that all columns should be retrieved.
+LIMIT: A clause used with SELECT to restrict the number of rows returned by a query.
+AS (Alias): A keyword used to give a temporary name (alias) to a column or a table in a query's result set.
+ORDER BY: A clause used with SELECT to sort the results based on one or more columns in ascending (ASC) or descending (DESC) order.
+DISTINCT: A keyword used with SELECT to return only unique (non-duplicate) values in the specified column(s).
+UPDATE: A SQL command used to modify existing data in a table.
+SET: Used with UPDATE to specify which columns to modify and their new values.
+WHERE Clause: A clause used in SELECT, UPDATE, and DELETE statements to filter records based on specified conditions.
+Wildcard (%): A character used in LIKE conditions to represent zero or more unknown characters in a string pattern.
+LIKE: An operator used in WHERE clauses to search for a specified pattern in a column.
+OR: A logical operator used in WHERE clauses to combine multiple conditions, returning true if any of the conditions are true.
+AND: A logical operator used in WHERE clauses to combine multiple conditions, returning true only if all conditions are true.
+BETWEEN: An operator used in WHERE clauses to select values within a given range (inclusive).
+IS NULL: An operator used in WHERE clauses to check for NULL values.
+DELETE FROM: A SQL command used to remove rows (records) from a table.
+JOIN: A clause used to combine rows from two or more tables based on a related column between them.
+ON: Used with JOIN to specify the condition for joining tables.
+INNER JOIN: Returns only the rows that have matching values in both tables.
+LEFT JOIN: Returns all rows from the left table, and the matching rows from the right table. If there is no match, NULL is returned for columns from the right table.
+RIGHT JOIN: Returns all rows from the right table, and the matching rows from the left table. If there is no match, NULL is returned for columns from the left table.
+Aggregate Function: A function that performs a calculation on a set of values (e.g., AVG for average, SUM for total, COUNT for number of rows).
+GROUP BY: A clause that groups rows that have the same values in specified columns into summary rows, often used with aggregate functions.
+HAVING: A clause used to filter the results of a GROUP BY clause based on a specified condition that applies to aggregate functions. It acts like WHERE but for grouped data.
